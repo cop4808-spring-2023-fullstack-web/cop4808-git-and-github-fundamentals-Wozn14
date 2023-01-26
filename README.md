@@ -1,6 +1,6 @@
-Name: Thomas Wozniak
-Class: COP 4808 Full Stack Web Dev.
-Assignment 1
+Name: Thomas Wozniak<br>
+Class: COP 4808 Full Stack Web Dev.<br>
+Assignment 1<br>
 
 # :wave: The Basics of GitHub 
 
