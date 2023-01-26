@@ -1,5 +1,5 @@
 
-=======
+
 Name: Thomas Wozniak<br>
 Class: COP 4808 Full Stack Web Dev.<br>
 Assignment 1<br>
