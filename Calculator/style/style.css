@@ -57,6 +57,9 @@ button {
     background-color: purple;
     font-weight: bold;
 }
+.new:focus{
+    background-color:  rgb(143, 9, 143);
+}
 .operator {
     background-color: #FF8F1F;    
 }

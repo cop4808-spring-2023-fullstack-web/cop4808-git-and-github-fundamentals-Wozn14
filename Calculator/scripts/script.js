@@ -41,9 +41,13 @@ function clickButton() {
             } else if(buttons[i].classList.contains('sign')) {
                 inputSign(displayValue);
                 updateDisplay();
-            } else if(buttons[i].classList.contains('clear'))
+            }else if(buttons[i].classList.contains('new')) {
+                 inputSign(displayValue);
+                updateDisplay();//added the new buttons to be click
+             }else if(buttons[i].classList.contains('clear'))
                 clearDisplay();
                 updateDisplay();
+                
         }
     )}
 }
