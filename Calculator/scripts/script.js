@@ -210,5 +210,5 @@ function natural(num){
     displayValue = (Math.log);
 }
 function squared(num){
-    displayValue = (Math.pow(num));
+    displayValue = (Math.pow(num, 2));
 }
