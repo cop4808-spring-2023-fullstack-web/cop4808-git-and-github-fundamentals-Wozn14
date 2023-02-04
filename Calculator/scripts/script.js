@@ -36,26 +36,21 @@ function clickButton() {
                 inputDecimal(buttons[i].value);
                 updateDisplay();
             } else if(buttons[i].classList.contains('percent')) {
-                console.log("detect percent");
                 inputPercent(displayValue);
                 updateDisplay();
             } else if(buttons[i].classList.contains('sign')) {
                 inputSign(displayValue);
                 updateDisplay();
             }else if(buttons[i].classList.contains('natural')) {
-                console.log("detect natural");
                  natural(displayValue);
                 updateDisplay();//added the new buttons to be click
             }else if(buttons[i].classList.contains('squared')) {
-                console.log("detect squared");
                  squared(displayValue);
                 updateDisplay();//added the new buttons to be click
             }else if(buttons[i].classList.contains('radical')) {
-                console.log("detect radical");
                  radical(displayValue);
                 updateDisplay();//added the new buttons to be click
             }else if(buttons[i].classList.contains('pi')) {
-                console.log("detect pi");
                 pi(displayValue);
                updateDisplay();//added the new buttons to be click    
              }else if(buttons[i].classList.contains('clear'))
@@ -207,7 +202,7 @@ function pi(num){
    return displayValue = (Math.PI).toString();
 }
 function natural(num){
-    displayValue = (Math.log);
+    displayValue = Math.log(num);
 }
 function squared(num){
     displayValue = (Math.pow(num, 2));
