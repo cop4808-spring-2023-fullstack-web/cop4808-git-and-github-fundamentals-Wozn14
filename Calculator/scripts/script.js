@@ -43,16 +43,16 @@ function clickButton() {
                 updateDisplay();
             }else if(buttons[i].classList.contains('natural')) {
                  natural(displayValue);
-                updateDisplay();//added the new buttons to be click
+                updateDisplay();//added the new button for log to be click
             }else if(buttons[i].classList.contains('squared')) {
                  squared(displayValue);
-                updateDisplay();//added the new buttons to be click
+                updateDisplay();//added the new button for squared to be click
             }else if(buttons[i].classList.contains('radical')) {
                  radical(displayValue);
-                updateDisplay();//added the new buttons to be click
+                updateDisplay();//added the new button for radical to be click
             }else if(buttons[i].classList.contains('pi')) {
                 pi(displayValue);
-               updateDisplay();//added the new buttons to be click    
+               updateDisplay();//added the new button for pi to be click    
              }else if(buttons[i].classList.contains('clear'))
                 clearDisplay();
                 updateDisplay();
@@ -197,13 +197,13 @@ function roundAccurately(num, places) {
 }
 function radical(num){
      displayValue = (Math.sqrt(num)).toString();
-}
+}//function for processing radical with string 
 function pi(num){
    return displayValue = (Math.PI).toString();
-}
+}// function for pi to be applied to the users discretion 
 function natural(num){
-    displayValue = Math.log(num);
-}
+    displayValue = Math.log(num).toFixed(9);
+}// function for log to be applied but capped at 9 digits
 function squared(num){
-    displayValue = (Math.pow(num, 2));
-}
+    displayValue = (Math.pow(num, 2)).toFixed(9);
+}//function for squared and is capped at 9 digits

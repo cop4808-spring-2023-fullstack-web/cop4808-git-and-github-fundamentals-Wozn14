@@ -56,10 +56,10 @@ button {
 .new{
     background-color: purple;
     font-weight: bold;
-}
-.new:active{
+}/* bolding all new buttons and having my favorite color*/
+.new:focus{
     background-color:  rgb(143, 9, 143);
-}
+}/*giving an indicator that the button was selected like * */
 .operator {
     background-color: #FF8F1F;    
 }
