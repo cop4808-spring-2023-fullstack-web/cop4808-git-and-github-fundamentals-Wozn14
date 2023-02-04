@@ -151,6 +151,7 @@ function inputSign(num) {
     displayValue = (num * -1).toString();
 }
 
+
 function clearDisplay() {
     displayValue = '0';
     firstOperand = null;
