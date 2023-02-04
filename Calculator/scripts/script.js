@@ -41,7 +41,7 @@ function clickButton() {
             } else if(buttons[i].classList.contains('sign')) {
                 inputSign(displayValue);
                 updateDisplay();
-            }else if(buttons[i].classList.contains('squareRoot')) {
+            }else if(buttons[i].classList.contains('radical')) {
                  squareRoot(displayValue);
                 updateDisplay();//added the new buttons to be click
             }else if(buttons[i].classList.contains('pi')) {
@@ -189,7 +189,7 @@ function operate(x, y, op) {
 function roundAccurately(num, places) {
     return parseFloat(Math.round(num + 'e' + places) + 'e-' + places);
 }
-function squareRoot(num){
+function radical(num){
      displayValue = math.sqrt(num).toString();
 }
 function pi(num){

@@ -53,32 +53,11 @@ button {
     grid-column: span 2;
 }
 
-.pi{
+.new{
     background-color: purple;
     font-weight: bold;
 }
-.pi:focus{
-    background-color:  rgb(143, 9, 143);
-}
-.natural{
-    background-color: purple;
-    font-weight: bold;
-}
-.natural:focus{
-    background-color:  rgb(143, 9, 143);
-}
-.radical{
-    background-color: purple;
-    font-weight: bold;
-}
-.radical:focus{
-    background-color:  rgb(143, 9, 143);
-}
-.pi{
-    background-color: purple;
-    font-weight: bold;
-}
-.pi:focus{
+.new:active{
     background-color:  rgb(143, 9, 143);
 }
 .operator {
