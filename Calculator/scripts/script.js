@@ -41,9 +41,12 @@ function clickButton() {
             } else if(buttons[i].classList.contains('sign')) {
                 inputSign(displayValue);
                 updateDisplay();
-            }else if(buttons[i].classList.contains('new')) {
-                 inputSign(displayValue);
+            }else if(buttons[i].classList.contains('squareRoot')) {
+                 squareRoot(displayValue);
                 updateDisplay();//added the new buttons to be click
+            }else if(buttons[i].classList.contains('pi')) {
+                pi(displayValue);
+               updateDisplay();//added the new buttons to be click    
              }else if(buttons[i].classList.contains('clear'))
                 clearDisplay();
                 updateDisplay();
@@ -151,7 +154,6 @@ function inputSign(num) {
     displayValue = (num * -1).toString();
 }
 
-
 function clearDisplay() {
     displayValue = '0';
     firstOperand = null;
@@ -186,4 +188,10 @@ function operate(x, y, op) {
 
 function roundAccurately(num, places) {
     return parseFloat(Math.round(num + 'e' + places) + 'e-' + places);
+}
+function squareRoot(num){
+     displayValue = math.sqrt(num).toString();
+}
+function pi(num){
+   return displayValue = Math.PI(num).toString();
 }

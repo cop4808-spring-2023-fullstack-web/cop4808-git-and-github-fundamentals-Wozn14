@@ -74,11 +74,11 @@ button {
 .radical:focus{
     background-color:  rgb(143, 9, 143);
 }
-.squared{
+.pi{
     background-color: purple;
     font-weight: bold;
 }
-.squared:focus{
+.pi:focus{
     background-color:  rgb(143, 9, 143);
 }
 .operator {
